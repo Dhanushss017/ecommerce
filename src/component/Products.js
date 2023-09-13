@@ -2,7 +2,6 @@ import React,{useState} from "react";
 import jewels from "./images/jewels.png";
 import heels from "./images/heels.png";
 import chain from "./images/chain.png";
-import shoes from "./images/shoes.png";
 import "./Style.css";
 import { Link } from "react-router-dom";
 
@@ -74,9 +73,9 @@ const Products = () => {
             className="text-decoration-none text_black"
             to="/categories-details"
           >
-            <span> >&nbsp; Maintainanance services</span>
+            <span>- &nbsp; Maintainanance services</span>
           </Link>
-          <span> > &nbsp; Level 3</span>
+          <span>  - &nbsp; Level 3</span>
         </h3>
         <ul
           className="nav nav-pills nav_tabs my-4 d-flex overflow-auto flex-nowrap"

@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './component/Home'
 import Categories from './component/Categories'
-import CategoriesDetails from './component/CategoriesDetails';
+import Details from './component/Details';
 import Products from './component/Products';
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
 
       <Route path="/" exact element={<Home/>} />
       <Route path="/categories" exact element={<Categories/>} />
-      <Route path="/categories-details" exact element={<CategoriesDetails/>} />
+      <Route path="/categories-details" exact element={<Details/>} />
       <Route path="/products" exact element={<Products/>} />
      
    

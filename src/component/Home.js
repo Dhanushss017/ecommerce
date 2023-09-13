@@ -9,7 +9,6 @@ import shoes from "./images/shoes.png";
 import payment from "./images/payment.jpg";
 import calling from "./images/calling-img.jpg";
 import timeDelivery from "./images/time-delivery.jpg";
-import Categories from "./Categories";
 const Home = () => {
   return (
     <div>

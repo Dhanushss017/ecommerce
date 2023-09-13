@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Style.css";
-const CategoriesDetails = () => {
+const Details = () => {
   return (
     <div>
       <div className="py-3 shadow">
@@ -117,4 +117,4 @@ const CategoriesDetails = () => {
   );
 };
 
-export default CategoriesDetails;
+export default Details;
