@@ -192,8 +192,8 @@ const Products = () => {
             ))}
           </div>
           <div className="d-flex justify-content-center">
-        <button className="btn fs-18 fw-500" onClick={prevPage} disabled={currentPage === 1}>Previous</button>
-        <button  className="btn fs-18 fw-500" onClick={nextPage} disabled={currentPage === Math.ceil(data.length / itemsPerPage)}>Next</button>
+        <button className="btn fs-18 fw-500" onClick={prevPage} disabled={currentPage === 1}>1</button>
+        <button  className="btn fs-18 fw-500" onClick={nextPage} disabled={currentPage === Math.ceil(data.length / itemsPerPage)}>2</button>
       </div>
           
         
